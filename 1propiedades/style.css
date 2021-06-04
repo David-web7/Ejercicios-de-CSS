@@ -1,0 +1,15 @@
+h1 {
+    color: pink;
+    font-size: 600%;
+}
+#unico {
+    color:aqua;
+    font-size: large;
+}
+p{
+    color:blue;
+}
+.verde{
+    color: greenyellow;
+    background-color: black;
+}

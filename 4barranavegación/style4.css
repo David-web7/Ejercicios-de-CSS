@@ -1,0 +1,39 @@
+.nav-boton{
+    background: rgb(34, 120, 160);
+    color:aliceblue;
+    border: 3px solid pink;
+    padding: 5px;
+    display: none;
+}
+.nav-enlace{
+    background: rebeccapurple;
+    color: chocolate;
+    padding: 20px 30px;
+    text-decoration:nome;
+}
+.nav-enlace:hover{
+    background: rgb(177, 235, 17);
+    border-radius: 15px;
+    border: 10px solid blue;
+
+}
+nav{
+background:rgb(155, 226, 211);
+padding:20px;
+display: flex;
+justify-content: space-around;
+
+}
+@media(max-width:400px){
+    nav{
+        background:rgb(200, 221, 6);
+        flex-direction: column;
+    
+    }
+    .nav-enlace{
+        margin: 9px;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+}

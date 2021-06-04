@@ -1,0 +1,20 @@
+nav{
+    background: yellow;
+    background-color: bisque;
+    background-color: blue;
+    background-color: red;
+    padding: 20px;
+    }
+
+    .padre{
+        display: flex
+    }
+    .columna{
+        background-color: pink;
+                color:aqua;
+        padding: 15px;
+        width: 25%;
+        margin: 50px;
+
+    
+    }
